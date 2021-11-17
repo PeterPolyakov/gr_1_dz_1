@@ -39,7 +39,7 @@ a:hover {
     margin: 10px;
     border: 2px solid #2E5E99;
     border-radius: 10px;
-    background: url(img/User_icon-cp.svg) no-repeat 95% 5%;
+    background: url(../img/User_icon-cp.svg) no-repeat 95% 5%;
     background-size: 100px 100px;
     background-color: rgb(172, 172, 172);
     color:antiquewhite;
