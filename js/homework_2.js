@@ -1,5 +1,6 @@
 alert('Задача № 1')
 
+let inchInKilometer = 39370.1;
 let N = prompt('Сколько километров проехала машина?')
 let D = prompt('Какой диаметр колёс у машины?')
 let numberOfWheels = prompt('Сколько колес у машины?')
@@ -9,7 +10,7 @@ if (isNaN(parseInt(D))) console.log('Введите пожалуйста циф�
 if (isNaN(parseInt(numberOfWheels))) console.log('Введите пожалуйста цифровое значение количества колес')
 
 
-N = N * 39370.1
+N = N * inchInKilometer;
 let oneWheel = Math.round (N / (D * 3.14))
 let allWheels = Math.round(oneWheel * numberOfWheels)
 
