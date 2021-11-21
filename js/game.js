@@ -138,10 +138,10 @@ $(document).ready(function () {
 			result.style.cssText = `
 			display: inline-block;
 			position: absolute;
-			left: ${this.x};
-			top: ${this.y};
-			width: ${this.width};
-			height: ${this.height};
+			left: ${this.x}px;
+			top: ${this.y}px;
+			width: ${this.width}px;
+			height: ${this.height}px;
 			background: black;
 			`;
 
