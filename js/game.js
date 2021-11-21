@@ -142,7 +142,7 @@ $(document).ready(function () {
 			top: ${this.y}px;
 			width: ${this.width}px;
 			height: ${this.height}px;
-			background: black;
+			background: orange;
 			`;
 
 			document.body.append(result);
